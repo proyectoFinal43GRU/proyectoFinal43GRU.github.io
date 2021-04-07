@@ -12,53 +12,48 @@
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
   <script src="js/init.js">
   </script>
-  <link rel="stylesheet"href="css/estilos.css">
+  <link rel="stylesheet"href="css/styleForm.css">
 </head>
 <body>
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
       <h1>Agregar Nuevo Alumno</h1>
-      <div class="herramientas">
-        <a href="alumnos.html">Cancelar</a>
-        <button type="submit">Guardar</button>
-      </div>
     </header>
     <p>
-      <label>
-        Matricula:
-        <input name="matricula"
-          type="text" required>
-      </label>
+		<label>
+			Matricula:
+        	<input name="matricula"type="text" required>
+      	</label>
+    </p>
+    <p>
+    	<label>
+        	Nombre:
+        	<input name="nombre"type="text" required>
+    	</label>
+    </p>
+    <p>
+		<label>
+			Grupo:
+			<input name="grupo"type="text" required>
+		</label>
+    </p>
+    <p>
+		<label>
+			Teléfono:
+			<input name="telefono"type="tel" required>
+		</label>
     </p>
     <p>
       <label>
-        Nombre:
-        <input name="nombre"
-          type="text" required>
+        	Fecha:
+       		<input name="fecha"type="date" required>
       </label>
-    </p>
-    <p>
-      <label>
-        Teléfono:
-        <input name="telefono"
-          type="tel" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Grupo:
-        <input name="grupo"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Fecha:
-        <input name="fecha"
-          type="date" required>
-      </label>
-    </p>
+	</p>
+	<div class="herramientas">
+        <a href="alumnos.html">Cancelar</a>
+        <button type="submit">Guardar</button>
+    </div>
     <footer>
 		Copyright © 2021 Gutierrez Ramirez Ulises
 	</footer>
