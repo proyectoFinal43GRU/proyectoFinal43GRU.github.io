@@ -16,7 +16,7 @@
 </head>
 <body>
   <form name="forma" class="form-registro">
-	<h2 class="form-titulo">CREAR UNA CUENTA</h2>
+	<h2 class="form-titulo">Agregar Nuevo Alumno</h2>
 	<div class="contenedor-inputs">
 		<input type="text" id="matricula" name="matricula" placeholder="Matricula" class="input-48" required>
 		<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required>
@@ -24,12 +24,12 @@
 		<input type="tel" id="telefono" name="telefono" placeholder="Telefono" class="input-48" required>
 		<input type="date" id="fecha" name="fecha" placeholder="Fecha" class="input-100" required>
 		<input type="submit" value="Registrar" class="btn-enviar">
-		<p class="form-link">Ya tienes una cuenta?<a href="#">Ingresa aquí</a></p>
+		<div class="options">
+			<a href="alumnos.html">Cancelar</a>
+			<button type="submit">Guardar</button>
+		</div>
 	</div>
-	<div class="options">
-        <a href="alumnos.html">Cancelar</a>
-        <button type="submit">Guardar</button>
-    </div>
+
     <footer>
 		Copyright © 2021 Gutierrez Ramirez Ulises
 	</footer>
