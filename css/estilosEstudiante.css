@@ -1,5 +1,5 @@
 a:link, a:visited {
-	width: 50%;
+	width: 20%;
 	margin: auto;
 	background-color: #07f84f;
 	color: white;
@@ -12,7 +12,7 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-	width: 50%;
+	width: 20%;
 	background-color: rgb(133, 238, 150);
 	transform: scale(1.2);
   }
