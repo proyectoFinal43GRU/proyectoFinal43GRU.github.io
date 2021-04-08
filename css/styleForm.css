@@ -1,4 +1,5 @@
 
+
 *{
 	box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ h1{
 	text-align: center;
 }
 .form-registro{
-	width: 95%;
+	width: 97%;
 	max-width: 500px;
 	margin: auto;
 	background: white;
@@ -50,7 +51,7 @@ input{
 	width: 100%;
 }
 .btn-enviar{
-	background: #2f83f1;
+	background: #026bf5;
 	color: #fff;
 	margin: auto;
 	padding: 10px 40px;
@@ -59,7 +60,7 @@ input{
 
 }
 .btn-enviar:hover{
-background: #13f54c;
+background: #06c6f6;
 transform: scale(1.1);
 }
 .btn-enviar:active{
