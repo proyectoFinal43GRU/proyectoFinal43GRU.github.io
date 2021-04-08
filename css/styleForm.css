@@ -49,6 +49,7 @@ input{
 	width: 100%;
 }
 .btn-enviar{
+	width: 48%;
 	background: #026bf5;
 	color: #fff;
 	margin: auto;
@@ -58,10 +59,12 @@ input{
 
 }
 .btn-enviar:hover{
+width: 48%;
 background: #06c6f6;
 transform: scale(1.1);
 }
 .btn-enviar:active{
+	width: 48%;
 	transform: scale(1.2);
 }
 .form-link{
@@ -71,6 +74,7 @@ transform: scale(1.1);
 	text-align: center;
 }
 a:link, a:visited {
+  width: 48%;
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -80,6 +84,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
+  width: 48%;
   background-color: red;
 }
 
