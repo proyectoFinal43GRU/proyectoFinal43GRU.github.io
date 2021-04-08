@@ -1,0 +1,18 @@
+a:link, a:visited {
+	width: 50%;
+	margin: auto;
+	background-color: #07f84f;
+	color: white;
+	cursor: pointer;
+	padding: 10px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	width: 50%;
+	background-color: rgb(133, 238, 150);
+	transform: scale(1.2);
+  }
