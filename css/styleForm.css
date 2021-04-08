@@ -56,6 +56,7 @@ input{
 	padding: 10px 40px;
 	cursor: pointer;
 	font-size: 20px;
+	text-align: center;
 
 }
 .btn-enviar:hover{
@@ -75,16 +76,20 @@ transform: scale(1.1);
 }
 a:link, a:visited {
 	width: 50%;
+	margin: auto;
 	background-color: #ec2a1c;
 	color: white;
-	padding: 14px 25px;
+	cursor: pointer;
+	padding: 10px 40px;
 	text-align: center;
 	text-decoration: none;
+	font-size: 20px;
 	display: inline-block;
   }
   
   a:hover, a:active {
 	width: 50%;
 	background-color: rgb(87, 14, 14);
+	transform: scale(1.2);
   }
 
