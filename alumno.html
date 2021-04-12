@@ -15,66 +15,36 @@
   <script
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js">
     </script>
-  <script src="js/init.js">
-  </script>
-  <script type="module"
-    src="cmp/mi-nav.js">
-    </script>
-  <script type="module"
-    src="cmp/mi-footer.js">
-    </script>
-  <link rel="stylesheet"
-    href="css/estilos.css">
+  <script src="js/init.js"></script>
+  <script type="module" src="cmp/mi-nav.js"></script>
+  <script type="module" src="cmp/mi-footer.js"></script>
+  <link rel="stylesheet" href="css/estilosAlumno.css">
 </head>
 <body>
-  <form name="forma">
+  <form name="forma" class="form-registro">
     <mi-nav></mi-nav>
     <header>
-      <h1>Alumno</h1>
-      <div class="herramientas">
-        <a href="alumnos.html">
-          Cancelar</a>
-        <button>Guardar</button>
-        <button name="eliminar"
-          type="button">
-          Eliminar
-        </button>
-      </div>
+      <h2 class="form-titulo">Agregar Nuevo Alumno</h2>
     </header>
-    <p>
-      <label>
-        Matricula
-        <input name="matricula"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Nombre
-        <input name="nombre"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Teléfono
-        <input name="telefono"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Grupo
-        <input name="grupo"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Fecha
-        <input name="fecha" type="date" required>
-      </label>
-    </p>
+    <div class="contenedor-inputs">
+
+        <input name="matricula" type="text" class="input-48" placeholder="Matricula" required>
+
+        <input name="nombre" type="text" class="input-48" placeholder=" Nombre" required>
+
+        <input name="telefono" type="text" class="input-48" placeholder="Teléfono" required>
+
+        <input name="grupo" type="text" class="input-48" placeholder="Grupo" required>
+
+        <input name="fecha" type="date" class="input-100"  required>
+
+    <div class="options">
+      <a href="alumnos.html" class="input-48" target="_blank">Cancelar</a>
+      <button  class="btn-enviar">Guardar</button>
+      <button class="input-100" class="btn-eliminar" name="eliminar" type="button"> Eliminar</button>
+   </div>
+
+  </div>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
