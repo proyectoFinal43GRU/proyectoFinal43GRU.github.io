@@ -14,11 +14,20 @@
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
   <script
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+  <script src="js/init.js">
+  </script>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
   <link rel="stylesheet"
     href="css/estilos.css">
 </head>
 <body>
   <form name="forma">
+    <mi-nav></mi-nav>
     <header>
       <h1>Alumno Nuevo</h1>
       <div class="herramientas">
@@ -42,6 +51,27 @@
         Nombre
         <input name="nombre"
           type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Teléfono
+        <input name="telefono"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Grupo
+        <input name="grupo"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Fecha
+        <input name="fecha"
+          type="date" required>
       </label>
     </p>
     <mi-footer></mi-footer>
