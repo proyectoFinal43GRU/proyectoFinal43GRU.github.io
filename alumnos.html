@@ -15,29 +15,17 @@
   <script
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js">
     </script>
-  <script src="js/init.js">
-  </script>
-  <script type="module"
-    src="cmp/mi-nav.js">
-    </script>
-  <script type="module"
-    src="cmp/mi-footer.js">
-    </script>
-  <script type="module"
-    src="cmp/mi-progreso.js">
-    </script>
+  <script src="js/init.js"></script>
+  <script type="module"src="cmp/mi-nav.js"></script>
+  <script type="module"src="cmp/mi-footer.js"></script>
+  <script type="module" src="cmp/mi-progreso.js"></script>
   <link rel="stylesheet"
-    href="css/estilos.css">
+    href="css/estilosAlumnos.css">
 </head>
 <body>
   <mi-nav></mi-nav>
   <header>
     <h1>Alumnos</h1>
-    <div class="herramientas">
-      <a
-        href="alumnoNuevo.html">
-        Agregar…</a>
-    </div>
   </header>
   <ul id="lista" class="lista">
     <li>
@@ -45,6 +33,9 @@
       </mi-progreso>
     </li>
   </ul>
+  <div class="herramientas">
+    <a class="add" href="alumnoNuevo.html">Agregar</a>
+  </div>
   <mi-footer></mi-footer>
   <script type="module"
     src="js/CtrlAlumnos.js">
