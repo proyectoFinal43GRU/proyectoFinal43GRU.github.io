@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chat</title>
     <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="css/contenedor.css">
     <!-- Carga el núcleo de Firebase JS SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
     <!-- Agrega el manejo de autenticación. -->
@@ -17,12 +18,14 @@
     
   </head>
   <body>
+     <div class="contenedor">
     <h1>Chat</h1>
     <form action="javascript:agrega();">
       <input id="texto" type="text" required placeholder="Mensaje">
       <button>Enviar</button>
     </form>
     <ol id="mensajes"><li><progress max="100">Cargando…</progress></li></ol>
+    </div>
     <script>
       // @ts-check
       /** Nombre de usuario atenticado por Firebase. */
