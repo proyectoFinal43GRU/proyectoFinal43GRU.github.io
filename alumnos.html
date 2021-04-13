@@ -19,24 +19,27 @@
   <script type="module"src="cmp/mi-nav.js"></script>
   <script type="module"src="cmp/mi-footer.js"></script>
   <script type="module" src="cmp/mi-progreso.js"></script>
-  <link rel="stylesheet"
-    href="css/estilosAlumnos.css">
+  <link rel="stylesheet" href="css/estilosAlumnos.css">
+  <link rel="stylesheet" href="css/contenedor.css">
 </head>
 <body>
   <mi-nav></mi-nav>
+  <br><br><br><br><br><br><br>
+  <div class="contenedor">
   <header>
-    <h1>Alumnos</h1>
+    <h1 class="titulo" >Alumnos</h1>
   </header>
   <ul id="lista" class="lista">
     <li>
       <mi-progreso>
       </mi-progreso>
     </li>
-  </ul>
+  </ul><br>
   <div class="herramientas">
-    <a class="add" href="alumnoNuevo.html">Agregar</a>
+    <a class="add" href="alumnoNuevo.html">Agregar</a><br><br><br>
   </div>
   <mi-footer></mi-footer>
+  </div>
   <script type="module"
     src="js/CtrlAlumnos.js">
     </script>
