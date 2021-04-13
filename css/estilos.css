@@ -1,4 +1,4 @@
-ul.minav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul.minav {
     background-color: #333;
   }
   
-  li.opt {
+  li {
     float: left;
   }
   
-  li a.nav {
+  li a{
     display: block;
     color: white;
     text-align: center;
@@ -18,6 +18,6 @@ ul.minav {
     text-decoration: none;
   }
   
-  li a.nav:hover {
+  li a:hover {
     background-color: #111;
   }
