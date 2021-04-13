@@ -26,56 +26,36 @@
     href="css/estilos.css">
 </head>
 <body>
-  <form name="forma">
-    <mi-nav></mi-nav>
-    <header>
-      <h1>Alumno Nuevo</h1>
-      <div class="herramientas">
-        <a
-          href="alumnos.html">
-          Cancelar</a>
-        <button type="submit">
-          Guardar
-        </button>
-      </div>
-    </header>
-    <p>
-      <label>
-        Matricula
-        <input name="matricula"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Nombre
-        <input name="nombre"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Teléfono
-        <input name="telefono"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Grupo
-        <input name="grupo"
-          type="text" required>
-      </label>
-    </p>
-    <p>
-      <label>
-        Fecha
-        <input name="fecha"
-          type="date" required>
-      </label>
-    </p>
-    <mi-footer></mi-footer>
-  </form>
+    <br><br><br><br><br><br>
+    <form name="forma" class="form-registro">
+      <mi-nav></mi-nav>
+      <header>
+        <h2 class="form-titulo">Agregar Nuevo Alumno</h2>
+      </header>
+      <div class="contenedor-inputs">
+
+          <input name="matricula" type="text" class="input-48" placeholder="Matricula" required>
+
+          <input name="nombre" type="text" class="input-48" placeholder=" Nombre" required>
+
+          <input name="telefono" type="text" class="input-48" placeholder="Teléfono" required>
+
+          <input name="grupo" type="text" class="input-48" placeholder="Grupo" required>
+
+          <input name="fecha" type="date" class="input-100"  required>
+
+      <div class="options">
+        <a href="alumnos.html" class="input-48" target="_blank">Cancelar</a>
+        <button  class="btn-eliminar" name="eliminar" type="button"> Eliminar</button>
+    </div>
+    
+    <ul class="minav">
+      <li class="opt"><a  class="active" href="chat.html">Chat</a></li>
+      <li class="opt"><a href="alumnos.html">Estudiantes</a></li>
+    </ul>
+    </div>
+      <mi-footer></mi-footer>
+    </form>
   <script type="module"
     src="js/CtrlAlumnoNuevo.js">
     </script>
