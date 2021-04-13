@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background: rgb(66, 8, 37);
+}
+.contenedor{
+    padding: 5px 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 97%;
+	max-width: 500px;
+	background: white;
+	border-radius: 7px;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+
