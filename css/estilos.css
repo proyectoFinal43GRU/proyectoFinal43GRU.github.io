@@ -1,4 +1,4 @@
-ul {
+.minav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  .opt li {
     float: left;
   }
   
-  li a{
+  li a {
     display: block;
     color: white;
     text-align: center;
